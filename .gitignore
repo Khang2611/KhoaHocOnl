@@ -13,6 +13,7 @@ frontend/dist/
 *.iml
 *.iws
 *.ipr
+.kiro/
 
 # OS
 .DS_Store
