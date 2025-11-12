@@ -1,0 +1,3469 @@
+[
+  {
+    "courseId": 1,
+    "courseTitle": "Git & Version Control",
+    "description": "Khóa học thiết yếu này dạy bạn cách sử dụng Git, hệ thống kiểm soát phiên bản phân tán phổ biến nhất.",
+    "urlVideo": "https://www.youtube.com/embed/RGOj5yH7evk",
+    "price": 299000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "Hiểu lý do tại sao cần kiểm soát phiên bản",
+      "Thực hiện các thao tác Git cơ bản",
+      "Làm việc với nhánh và gộp",
+      "Giải quyết xung đột",
+      "Sử dụng GitHub/GitLab"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Giới thiệu về VCS",
+        "chapterDescription": "Tại sao cần VCS",
+        "estimatedDurationMinutes": 30,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu giới thiệu về vcs",
+            "lessonDescription": "Học về giới thiệu về vcs - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=zbKdDsNNOhg",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về giới thiệu về vcs",
+            "lessonDescription": "Học về giới thiệu về vcs - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=8oRjP8yj2Wo",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành giới thiệu về vcs",
+            "lessonDescription": "Học về giới thiệu về vcs - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=2ReR1YJrNOM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Cài đặt Git",
+        "chapterDescription": "Setup và config",
+        "estimatedDurationMinutes": 20,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu cài đặt git",
+            "lessonDescription": "Học về cài đặt git - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=zbKdDsNNOhg",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 5,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về cài đặt git",
+            "lessonDescription": "Học về cài đặt git - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=8oRjP8yj2Wo",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 5,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành cài đặt git",
+            "lessonDescription": "Học về cài đặt git - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=2ReR1YJrNOM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 5,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về cài đặt git",
+            "lessonDescription": "Học về cài đặt git - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=2j7fD92g-gE",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 5,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Quy trình cơ bản",
+        "chapterDescription": "init, add, commit",
+        "estimatedDurationMinutes": 45,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu quy trình cơ bản",
+            "lessonDescription": "Học về quy trình cơ bản - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=zbKdDsNNOhg",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về quy trình cơ bản",
+            "lessonDescription": "Học về quy trình cơ bản - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=8oRjP8yj2Wo",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành quy trình cơ bản",
+            "lessonDescription": "Học về quy trình cơ bản - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=2ReR1YJrNOM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về quy trình cơ bản",
+            "lessonDescription": "Học về quy trình cơ bản - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=2j7fD92g-gE",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho quy trình cơ bản",
+            "lessonDescription": "Học về quy trình cơ bản - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=WxMFZncm12s",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 2,
+    "courseTitle": "Java cơ bản",
+    "description": "Xây dựng nền tảng lập trình vững chắc với Java và OOP.",
+    "urlVideo": "https://www.youtube.com/embed/eIrMbAQSU34",
+    "price": 499000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "Hiểu cú pháp Java",
+      "Nắm vững 4 trụ cột OOP",
+      "Xử lý lỗi"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "JDK, JRE, JVM",
+        "chapterDescription": "Cài đặt môi trường",
+        "estimatedDurationMinutes": 30,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu jdk, jre, jvm",
+            "lessonDescription": "Học về jdk, jre, jvm - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về jdk, jre, jvm",
+            "lessonDescription": "Học về jdk, jre, jvm - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành jdk, jre, jvm",
+            "lessonDescription": "Học về jdk, jre, jvm - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về jdk, jre, jvm",
+            "lessonDescription": "Học về jdk, jre, jvm - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Biến và Kiểu dữ liệu",
+        "chapterDescription": "Primitive types",
+        "estimatedDurationMinutes": 45,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu biến và kiểu dữ liệu",
+            "lessonDescription": "Học về biến và kiểu dữ liệu - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về biến và kiểu dữ liệu",
+            "lessonDescription": "Học về biến và kiểu dữ liệu - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành biến và kiểu dữ liệu",
+            "lessonDescription": "Học về biến và kiểu dữ liệu - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về biến và kiểu dữ liệu",
+            "lessonDescription": "Học về biến và kiểu dữ liệu - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "OOP",
+        "chapterDescription": "Class, Object",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu oop",
+            "lessonDescription": "Học về oop - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về oop",
+            "lessonDescription": "Học về oop - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành oop",
+            "lessonDescription": "Học về oop - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 3,
+    "courseTitle": "Java Programming Fundamentals",
+    "description": "Đi sâu vào Java nâng cao: file I/O, multithreading, generics.",
+    "urlVideo": "https://www.youtube.com/embed/grEKMHGYyns",
+    "price": 699000,
+    "prerequisiteIds": [
+      2
+    ],
+    "learningObjectives": [
+      "Thao tác file và streams",
+      "Hiểu Generics",
+      "Lập trình đa luồng",
+      "Java 8+ features"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Generics",
+        "chapterDescription": "Generic classes",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu generics",
+            "lessonDescription": "Học về generics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về generics",
+            "lessonDescription": "Học về generics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành generics",
+            "lessonDescription": "Học về generics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "I/O",
+        "chapterDescription": "File handling",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu i/o",
+            "lessonDescription": "Học về i/o - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 18,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về i/o",
+            "lessonDescription": "Học về i/o - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 18,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành i/o",
+            "lessonDescription": "Học về i/o - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 18,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Multithreading",
+        "chapterDescription": "Threads, Sync",
+        "estimatedDurationMinutes": 70,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu multithreading",
+            "lessonDescription": "Học về multithreading - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về multithreading",
+            "lessonDescription": "Học về multithreading - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành multithreading",
+            "lessonDescription": "Học về multithreading - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về multithreading",
+            "lessonDescription": "Học về multithreading - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho multithreading",
+            "lessonDescription": "Học về multithreading - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=IUqKuGNasdM",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 4,
+    "courseTitle": "Database Design & Management",
+    "description": "Thiết kế và quản lý cơ sở dữ liệu quan hệ với SQL.",
+    "urlVideo": "https://www.youtube.com/embed/HXV3zeQKqGY",
+    "price": 599000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "Thiết kế ERD",
+      "Chuẩn hóa dữ liệu",
+      "Viết SQL",
+      "Truy vấn phức tạp",
+      "Transactions"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "ERD",
+        "chapterDescription": "Entity Relationship",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu erd",
+            "lessonDescription": "Học về erd - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về erd",
+            "lessonDescription": "Học về erd - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành erd",
+            "lessonDescription": "Học về erd - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về erd",
+            "lessonDescription": "Học về erd - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Normalization",
+        "chapterDescription": "1NF, 2NF, 3NF",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu normalization",
+            "lessonDescription": "Học về normalization - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về normalization",
+            "lessonDescription": "Học về normalization - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành normalization",
+            "lessonDescription": "Học về normalization - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "SQL",
+        "chapterDescription": "SELECT, JOIN",
+        "estimatedDurationMinutes": 70,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu sql",
+            "lessonDescription": "Học về sql - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về sql",
+            "lessonDescription": "Học về sql - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành sql",
+            "lessonDescription": "Học về sql - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về sql",
+            "lessonDescription": "Học về sql - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho sql",
+            "lessonDescription": "Học về sql - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 14,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 5,
+    "courseTitle": "CSS & HTML",
+    "description": "Nền tảng web development với HTML5 và CSS3.",
+    "urlVideo": "https://www.youtube.com/embed/1Rs2ND1ryYc",
+    "price": 399000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "HTML5 semantic",
+      "CSS selectors",
+      "Box Model",
+      "Flexbox và Grid",
+      "Responsive Design"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "HTML5",
+        "chapterDescription": "Tags, Elements",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu html5",
+            "lessonDescription": "Học về html5 - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về html5",
+            "lessonDescription": "Học về html5 - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành html5",
+            "lessonDescription": "Học về html5 - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về html5",
+            "lessonDescription": "Học về html5 - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "CSS",
+        "chapterDescription": "Selectors, Box Model",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu css",
+            "lessonDescription": "Học về css - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về css",
+            "lessonDescription": "Học về css - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành css",
+            "lessonDescription": "Học về css - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về css",
+            "lessonDescription": "Học về css - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Flexbox",
+        "chapterDescription": "Layout modern",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu flexbox",
+            "lessonDescription": "Học về flexbox - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về flexbox",
+            "lessonDescription": "Học về flexbox - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành flexbox",
+            "lessonDescription": "Học về flexbox - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về flexbox",
+            "lessonDescription": "Học về flexbox - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho flexbox",
+            "lessonDescription": "Học về flexbox - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 6,
+    "courseTitle": "JavaScript ES6+",
+    "description": "Làm chủ JavaScript từ cơ bản đến ES6+ hiện đại.",
+    "urlVideo": "https://www.youtube.com/embed/PkZNo7MFNFg",
+    "price": 799000,
+    "prerequisiteIds": [
+      5
+    ],
+    "learningObjectives": [
+      "Cú pháp JS",
+      "DOM manipulation",
+      "Event handling",
+      "ES6+ features",
+      "Fetch API"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "JS Basics",
+        "chapterDescription": "Variables, Functions",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu js basics",
+            "lessonDescription": "Học về js basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về js basics",
+            "lessonDescription": "Học về js basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành js basics",
+            "lessonDescription": "Học về js basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về js basics",
+            "lessonDescription": "Học về js basics - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "DOM",
+        "chapterDescription": "querySelector",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu dom",
+            "lessonDescription": "Học về dom - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về dom",
+            "lessonDescription": "Học về dom - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành dom",
+            "lessonDescription": "Học về dom - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về dom",
+            "lessonDescription": "Học về dom - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "ES6+",
+        "chapterDescription": "Arrow functions, async/await",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu es6+",
+            "lessonDescription": "Học về es6+ - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về es6+",
+            "lessonDescription": "Học về es6+ - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành es6+",
+            "lessonDescription": "Học về es6+ - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 7,
+    "courseTitle": "Spring Boot",
+    "description": "Xây dựng ứng dụng web và RESTful API với Spring Boot.",
+    "urlVideo": "https://www.youtube.com/embed/9SGDpanrc8U",
+    "price": 999000,
+    "prerequisiteIds": [
+      2,
+      3
+    ],
+    "learningObjectives": [
+      "Spring Core IoC/DI",
+      "Spring MVC",
+      "RESTful API",
+      "Spring Data JPA",
+      "Spring Security"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Spring Core",
+        "chapterDescription": "IoC, DI",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu spring core",
+            "lessonDescription": "Học về spring core - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về spring core",
+            "lessonDescription": "Học về spring core - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành spring core",
+            "lessonDescription": "Học về spring core - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "REST API",
+        "chapterDescription": "@RestController",
+        "estimatedDurationMinutes": 70,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu rest api",
+            "lessonDescription": "Học về rest api - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về rest api",
+            "lessonDescription": "Học về rest api - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành rest api",
+            "lessonDescription": "Học về rest api - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "JPA",
+        "chapterDescription": "Entity, Repository",
+        "estimatedDurationMinutes": 80,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu jpa",
+            "lessonDescription": "Học về jpa - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về jpa",
+            "lessonDescription": "Học về jpa - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=TBWX97e1E9g",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành jpa",
+            "lessonDescription": "Học về jpa - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=ldYLYRNaucM",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về jpa",
+            "lessonDescription": "Học về jpa - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho jpa",
+            "lessonDescription": "Học về jpa - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=IUqKuGNasdM",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 8,
+    "courseTitle": "API Design",
+    "description": "Thiết kế và phát triển API chuyên nghiệp.",
+    "urlVideo": "https://www.youtube.com/embed/0oXYLzuucwE",
+    "price": 899000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "RESTful principles",
+      "API design",
+      "JWT Authentication",
+      "API documentation",
+      "Versioning"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "REST",
+        "chapterDescription": "HTTP verbs, Status codes",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu rest",
+            "lessonDescription": "Học về rest - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về rest",
+            "lessonDescription": "Học về rest - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành rest",
+            "lessonDescription": "Học về rest - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về rest",
+            "lessonDescription": "Học về rest - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho rest",
+            "lessonDescription": "Học về rest - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "JWT",
+        "chapterDescription": "Token authentication",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu jwt",
+            "lessonDescription": "Học về jwt - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về jwt",
+            "lessonDescription": "Học về jwt - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành jwt",
+            "lessonDescription": "Học về jwt - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về jwt",
+            "lessonDescription": "Học về jwt - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Swagger",
+        "chapterDescription": "API docs",
+        "estimatedDurationMinutes": 45,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu swagger",
+            "lessonDescription": "Học về swagger - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về swagger",
+            "lessonDescription": "Học về swagger - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành swagger",
+            "lessonDescription": "Học về swagger - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 9,
+    "courseTitle": "React.js",
+    "description": "Xây dựng UI hiện đại với React.",
+    "urlVideo": "https://www.youtube.com/embed/Ke90Tje7VS0",
+    "price": 1199000,
+    "prerequisiteIds": [
+      5,
+      6
+    ],
+    "learningObjectives": [
+      "Component-based thinking",
+      "JSX",
+      "State và Props",
+      "React Hooks",
+      "React Router",
+      "Context API"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "React Basics",
+        "chapterDescription": "JSX, Components",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu react basics",
+            "lessonDescription": "Học về react basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về react basics",
+            "lessonDescription": "Học về react basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành react basics",
+            "lessonDescription": "Học về react basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Hooks",
+        "chapterDescription": "useState, useEffect",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu hooks",
+            "lessonDescription": "Học về hooks - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về hooks",
+            "lessonDescription": "Học về hooks - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành hooks",
+            "lessonDescription": "Học về hooks - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về hooks",
+            "lessonDescription": "Học về hooks - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Router",
+        "chapterDescription": "React Router",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu router",
+            "lessonDescription": "Học về router - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về router",
+            "lessonDescription": "Học về router - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành router",
+            "lessonDescription": "Học về router - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về router",
+            "lessonDescription": "Học về router - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho router",
+            "lessonDescription": "Học về router - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 10,
+    "courseTitle": "Microservices",
+    "description": "Kiến trúc Microservices với Spring Boot.",
+    "urlVideo": "https://www.youtube.com/embed/y8IQb4ofjDo",
+    "price": 1499000,
+    "prerequisiteIds": [
+      7,
+      8
+    ],
+    "learningObjectives": [
+      "Microservices architecture",
+      "Service Discovery",
+      "API Gateway",
+      "Config management",
+      "Circuit Breaker"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Microservices",
+        "chapterDescription": "vs Monolith",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu microservices",
+            "lessonDescription": "Học về microservices - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về microservices",
+            "lessonDescription": "Học về microservices - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành microservices",
+            "lessonDescription": "Học về microservices - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Eureka",
+        "chapterDescription": "Service Discovery",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu eureka",
+            "lessonDescription": "Học về eureka - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về eureka",
+            "lessonDescription": "Học về eureka - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành eureka",
+            "lessonDescription": "Học về eureka - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về eureka",
+            "lessonDescription": "Học về eureka - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho eureka",
+            "lessonDescription": "Học về eureka - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Gateway",
+        "chapterDescription": "Spring Cloud Gateway",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu gateway",
+            "lessonDescription": "Học về gateway - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 18,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về gateway",
+            "lessonDescription": "Học về gateway - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 18,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành gateway",
+            "lessonDescription": "Học về gateway - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 18,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 11,
+    "courseTitle": "Software Testing & QA",
+    "description": "Đảm bảo chất lượng phần mềm qua testing.",
+    "urlVideo": "https://www.youtube.com/embed/u6QfIXgjwGQ",
+    "price": 799000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "SDLC và QA",
+      "Unit Testing",
+      "Integration Testing",
+      "Automation Testing"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Testing Basics",
+        "chapterDescription": "QA principles",
+        "estimatedDurationMinutes": 30,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu testing basics",
+            "lessonDescription": "Học về testing basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về testing basics",
+            "lessonDescription": "Học về testing basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành testing basics",
+            "lessonDescription": "Học về testing basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Unit Tests",
+        "chapterDescription": "JUnit/Jest",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu unit tests",
+            "lessonDescription": "Học về unit tests - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về unit tests",
+            "lessonDescription": "Học về unit tests - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành unit tests",
+            "lessonDescription": "Học về unit tests - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về unit tests",
+            "lessonDescription": "Học về unit tests - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho unit tests",
+            "lessonDescription": "Học về unit tests - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Automation",
+        "chapterDescription": "Selenium",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu automation",
+            "lessonDescription": "Học về automation - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về automation",
+            "lessonDescription": "Học về automation - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành automation",
+            "lessonDescription": "Học về automation - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về automation",
+            "lessonDescription": "Học về automation - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho automation",
+            "lessonDescription": "Học về automation - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 12,
+    "courseTitle": "Full-Stack Project",
+    "description": "Dự án capstone: xây dựng ứng dụng web hoàn chỉnh.",
+    "urlVideo": "https://www.youtube.com/embed/98BzS5Oz5E4",
+    "price": 1999000,
+    "prerequisiteIds": [
+      9,
+      7
+    ],
+    "learningObjectives": [
+      "Thiết kế hệ thống",
+      "Tích hợp Frontend-Backend",
+      "Authentication",
+      "Deployment"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Design",
+        "chapterDescription": "System architecture",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu design",
+            "lessonDescription": "Học về design - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về design",
+            "lessonDescription": "Học về design - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành design",
+            "lessonDescription": "Học về design - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Backend",
+        "chapterDescription": "API development",
+        "estimatedDurationMinutes": 90,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu backend",
+            "lessonDescription": "Học về backend - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về backend",
+            "lessonDescription": "Học về backend - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành backend",
+            "lessonDescription": "Học về backend - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về backend",
+            "lessonDescription": "Học về backend - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Frontend",
+        "chapterDescription": "React UI",
+        "estimatedDurationMinutes": 80,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu frontend",
+            "lessonDescription": "Học về frontend - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 26,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về frontend",
+            "lessonDescription": "Học về frontend - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 26,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành frontend",
+            "lessonDescription": "Học về frontend - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 26,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Deploy",
+        "chapterDescription": "Production deployment",
+        "estimatedDurationMinutes": 80,
+        "displayOrder": 4,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu deploy",
+            "lessonDescription": "Học về deploy - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về deploy",
+            "lessonDescription": "Học về deploy - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành deploy",
+            "lessonDescription": "Học về deploy - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về deploy",
+            "lessonDescription": "Học về deploy - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho deploy",
+            "lessonDescription": "Học về deploy - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 13,
+    "courseTitle": "Node.js",
+    "description": "Backend development với Node.js và Express.",
+    "urlVideo": "https://www.youtube.com/embed/TlB_eWDSMt4",
+    "price": 1099000,
+    "prerequisiteIds": [
+      6
+    ],
+    "learningObjectives": [
+      "Node.js architecture",
+      "NPM",
+      "Express.js",
+      "Database connection",
+      "JWT"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Node Basics",
+        "chapterDescription": "Event Loop",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu node basics",
+            "lessonDescription": "Học về node basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về node basics",
+            "lessonDescription": "Học về node basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành node basics",
+            "lessonDescription": "Học về node basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về node basics",
+            "lessonDescription": "Học về node basics - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho node basics",
+            "lessonDescription": "Học về node basics - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Express",
+        "chapterDescription": "Web server",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu express",
+            "lessonDescription": "Học về express - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về express",
+            "lessonDescription": "Học về express - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành express",
+            "lessonDescription": "Học về express - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về express",
+            "lessonDescription": "Học về express - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho express",
+            "lessonDescription": "Học về express - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "MongoDB",
+        "chapterDescription": "Mongoose",
+        "estimatedDurationMinutes": 70,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu mongodb",
+            "lessonDescription": "Học về mongodb - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về mongodb",
+            "lessonDescription": "Học về mongodb - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành mongodb",
+            "lessonDescription": "Học về mongodb - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 14,
+    "courseTitle": "Python cơ bản",
+    "description": "Nhập môn lập trình với Python.",
+    "urlVideo": "https://www.youtube.com/embed/rfscVS0vtbw",
+    "price": 499000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "Cú pháp Python",
+      "Data structures",
+      "Functions",
+      "OOP basics"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Python Basics",
+        "chapterDescription": "Variables, Types",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu python basics",
+            "lessonDescription": "Học về python basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về python basics",
+            "lessonDescription": "Học về python basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành python basics",
+            "lessonDescription": "Học về python basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Data Structures",
+        "chapterDescription": "List, Dict",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu data structures",
+            "lessonDescription": "Học về data structures - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về data structures",
+            "lessonDescription": "Học về data structures - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành data structures",
+            "lessonDescription": "Học về data structures - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về data structures",
+            "lessonDescription": "Học về data structures - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho data structures",
+            "lessonDescription": "Học về data structures - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Functions",
+        "chapterDescription": "def, lambda",
+        "estimatedDurationMinutes": 45,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu functions",
+            "lessonDescription": "Học về functions - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về functions",
+            "lessonDescription": "Học về functions - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành functions",
+            "lessonDescription": "Học về functions - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 15,
+    "courseTitle": "Python for Data Science",
+    "description": "NumPy, Pandas, Matplotlib cho data analysis.",
+    "urlVideo": "https://www.youtube.com/embed/r-uOLxNrNk8",
+    "price": 899000,
+    "prerequisiteIds": [
+      14
+    ],
+    "learningObjectives": [
+      "NumPy arrays",
+      "Pandas DataFrame",
+      "Data manipulation",
+      "Matplotlib visualization"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "NumPy",
+        "chapterDescription": "Arrays, operations",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu numpy",
+            "lessonDescription": "Học về numpy - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về numpy",
+            "lessonDescription": "Học về numpy - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành numpy",
+            "lessonDescription": "Học về numpy - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về numpy",
+            "lessonDescription": "Học về numpy - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Pandas",
+        "chapterDescription": "DataFrame",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu pandas",
+            "lessonDescription": "Học về pandas - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về pandas",
+            "lessonDescription": "Học về pandas - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành pandas",
+            "lessonDescription": "Học về pandas - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về pandas",
+            "lessonDescription": "Học về pandas - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho pandas",
+            "lessonDescription": "Học về pandas - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Matplotlib",
+        "chapterDescription": "Plotting",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu matplotlib",
+            "lessonDescription": "Học về matplotlib - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về matplotlib",
+            "lessonDescription": "Học về matplotlib - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành matplotlib",
+            "lessonDescription": "Học về matplotlib - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 16,
+    "courseTitle": "Data Analysis",
+    "description": "Phân tích và trực quan hóa dữ liệu.",
+    "urlVideo": "https://www.youtube.com/embed/a9UrKTVEeZA",
+    "price": 1199000,
+    "prerequisiteIds": [
+      15
+    ],
+    "learningObjectives": [
+      "EDA",
+      "Statistical analysis",
+      "Advanced visualization",
+      "Dashboard"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "EDA",
+        "chapterDescription": "Exploratory analysis",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu eda",
+            "lessonDescription": "Học về eda - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về eda",
+            "lessonDescription": "Học về eda - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành eda",
+            "lessonDescription": "Học về eda - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Statistics",
+        "chapterDescription": "Descriptive stats",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu statistics",
+            "lessonDescription": "Học về statistics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về statistics",
+            "lessonDescription": "Học về statistics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành statistics",
+            "lessonDescription": "Học về statistics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Visualization",
+        "chapterDescription": "Seaborn, Plotly",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu visualization",
+            "lessonDescription": "Học về visualization - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về visualization",
+            "lessonDescription": "Học về visualization - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành visualization",
+            "lessonDescription": "Học về visualization - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về visualization",
+            "lessonDescription": "Học về visualization - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 17,
+    "courseTitle": "Machine Learning",
+    "description": "Nền tảng Machine Learning với Scikit-learn.",
+    "urlVideo": "https://www.youtube.com/embed/ukzFI9rgwfU",
+    "price": 1599000,
+    "prerequisiteIds": [
+      15
+    ],
+    "learningObjectives": [
+      "ML types",
+      "Feature Engineering",
+      "Regression",
+      "Classification",
+      "Clustering"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "ML Intro",
+        "chapterDescription": "Supervised vs Unsupervised",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu ml intro",
+            "lessonDescription": "Học về ml intro - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về ml intro",
+            "lessonDescription": "Học về ml intro - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành ml intro",
+            "lessonDescription": "Học về ml intro - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Regression",
+        "chapterDescription": "Linear Regression",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu regression",
+            "lessonDescription": "Học về regression - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về regression",
+            "lessonDescription": "Học về regression - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành regression",
+            "lessonDescription": "Học về regression - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về regression",
+            "lessonDescription": "Học về regression - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho regression",
+            "lessonDescription": "Học về regression - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Classification",
+        "chapterDescription": "Logistic, KNN",
+        "estimatedDurationMinutes": 70,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu classification",
+            "lessonDescription": "Học về classification - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 17,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về classification",
+            "lessonDescription": "Học về classification - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 17,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành classification",
+            "lessonDescription": "Học về classification - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 17,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về classification",
+            "lessonDescription": "Học về classification - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 17,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 18,
+    "courseTitle": "Deep Learning",
+    "description": "Neural Networks với Keras/TensorFlow.",
+    "urlVideo": "https://www.youtube.com/embed/aircAruvnKk",
+    "price": 1999000,
+    "prerequisiteIds": [
+      17
+    ],
+    "learningObjectives": [
+      "Neural Networks",
+      "CNN",
+      "RNN",
+      "Transfer Learning"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Neural Networks",
+        "chapterDescription": "ANN basics",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu neural networks",
+            "lessonDescription": "Học về neural networks - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về neural networks",
+            "lessonDescription": "Học về neural networks - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành neural networks",
+            "lessonDescription": "Học về neural networks - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về neural networks",
+            "lessonDescription": "Học về neural networks - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "CNN",
+        "chapterDescription": "Image classification",
+        "estimatedDurationMinutes": 70,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu cnn",
+            "lessonDescription": "Học về cnn - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về cnn",
+            "lessonDescription": "Học về cnn - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành cnn",
+            "lessonDescription": "Học về cnn - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "RNN",
+        "chapterDescription": "Sequence models",
+        "estimatedDurationMinutes": 65,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu rnn",
+            "lessonDescription": "Học về rnn - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về rnn",
+            "lessonDescription": "Học về rnn - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành rnn",
+            "lessonDescription": "Học về rnn - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về rnn",
+            "lessonDescription": "Học về rnn - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 19,
+    "courseTitle": "AI Capstone",
+    "description": "Dự án AI/Data Science tổng hợp.",
+    "urlVideo": "https://www.youtube.com/embed/NKEhdkKyuiQ",
+    "price": 2499000,
+    "prerequisiteIds": [
+      18
+    ],
+    "learningObjectives": [
+      "End-to-end project",
+      "Data collection",
+      "Model training",
+      "Presentation"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Project Design",
+        "chapterDescription": "Problem definition",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu project design",
+            "lessonDescription": "Học về project design - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về project design",
+            "lessonDescription": "Học về project design - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành project design",
+            "lessonDescription": "Học về project design - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về project design",
+            "lessonDescription": "Học về project design - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho project design",
+            "lessonDescription": "Học về project design - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Data Pipeline",
+        "chapterDescription": "Collection, cleaning",
+        "estimatedDurationMinutes": 90,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu data pipeline",
+            "lessonDescription": "Học về data pipeline - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về data pipeline",
+            "lessonDescription": "Học về data pipeline - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành data pipeline",
+            "lessonDescription": "Học về data pipeline - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về data pipeline",
+            "lessonDescription": "Học về data pipeline - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 22,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Modeling",
+        "chapterDescription": "Training, tuning",
+        "estimatedDurationMinutes": 100,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu modeling",
+            "lessonDescription": "Học về modeling - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về modeling",
+            "lessonDescription": "Học về modeling - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành modeling",
+            "lessonDescription": "Học về modeling - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về modeling",
+            "lessonDescription": "Học về modeling - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho modeling",
+            "lessonDescription": "Học về modeling - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 20,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 20,
+    "courseTitle": "Docker",
+    "description": "Containerization với Docker.",
+    "urlVideo": "https://www.youtube.com/embed/fqMOX6JJhGo",
+    "price": 799000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "Container vs VM",
+      "Dockerfile",
+      "Container management",
+      "Docker Compose"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Docker Basics",
+        "chapterDescription": "Images, Containers",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu docker basics",
+            "lessonDescription": "Học về docker basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về docker basics",
+            "lessonDescription": "Học về docker basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành docker basics",
+            "lessonDescription": "Học về docker basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về docker basics",
+            "lessonDescription": "Học về docker basics - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho docker basics",
+            "lessonDescription": "Học về docker basics - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Dockerfile",
+        "chapterDescription": "Build images",
+        "estimatedDurationMinutes": 50,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu dockerfile",
+            "lessonDescription": "Học về dockerfile - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về dockerfile",
+            "lessonDescription": "Học về dockerfile - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành dockerfile",
+            "lessonDescription": "Học về dockerfile - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 16,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Compose",
+        "chapterDescription": "Multi-container",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu compose",
+            "lessonDescription": "Học về compose - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về compose",
+            "lessonDescription": "Học về compose - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành compose",
+            "lessonDescription": "Học về compose - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về compose",
+            "lessonDescription": "Học về compose - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 21,
+    "courseTitle": "Kubernetes",
+    "description": "Container orchestration với K8s.",
+    "urlVideo": "https://www.youtube.com/embed/X48VuDVv0do",
+    "price": 1399000,
+    "prerequisiteIds": [
+      20
+    ],
+    "learningObjectives": [
+      "K8s architecture",
+      "Deployments",
+      "Services",
+      "ConfigMaps",
+      "Persistent Volumes"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "K8s Intro",
+        "chapterDescription": "Pods, Nodes",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu k8s intro",
+            "lessonDescription": "Học về k8s intro - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về k8s intro",
+            "lessonDescription": "Học về k8s intro - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành k8s intro",
+            "lessonDescription": "Học về k8s intro - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về k8s intro",
+            "lessonDescription": "Học về k8s intro - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 10,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Deployments",
+        "chapterDescription": "ReplicaSets",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu deployments",
+            "lessonDescription": "Học về deployments - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về deployments",
+            "lessonDescription": "Học về deployments - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành deployments",
+            "lessonDescription": "Học về deployments - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về deployments",
+            "lessonDescription": "Học về deployments - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Services",
+        "chapterDescription": "Networking",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu services",
+            "lessonDescription": "Học về services - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về services",
+            "lessonDescription": "Học về services - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành services",
+            "lessonDescription": "Học về services - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về services",
+            "lessonDescription": "Học về services - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho services",
+            "lessonDescription": "Học về services - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 22,
+    "courseTitle": "CI/CD",
+    "description": "Tự động hóa build, test, deploy.",
+    "urlVideo": "https://www.youtube.com/embed/scEDHsr3APg",
+    "price": 1199000,
+    "prerequisiteIds": [
+      1,
+      20
+    ],
+    "learningObjectives": [
+      "CI/CD concepts",
+      "Pipeline design",
+      "Jenkins/GitLab CI",
+      "Automated deployment"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "CI/CD Basics",
+        "chapterDescription": "Continuous Integration",
+        "estimatedDurationMinutes": 35,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu ci/cd basics",
+            "lessonDescription": "Học về ci/cd basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về ci/cd basics",
+            "lessonDescription": "Học về ci/cd basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành ci/cd basics",
+            "lessonDescription": "Học về ci/cd basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về ci/cd basics",
+            "lessonDescription": "Học về ci/cd basics - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 8,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Pipeline",
+        "chapterDescription": "Build, Test",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu pipeline",
+            "lessonDescription": "Học về pipeline - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về pipeline",
+            "lessonDescription": "Học về pipeline - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành pipeline",
+            "lessonDescription": "Học về pipeline - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về pipeline",
+            "lessonDescription": "Học về pipeline - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Deployment",
+        "chapterDescription": "CD strategies",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu deployment",
+            "lessonDescription": "Học về deployment - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về deployment",
+            "lessonDescription": "Học về deployment - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành deployment",
+            "lessonDescription": "Học về deployment - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về deployment",
+            "lessonDescription": "Học về deployment - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho deployment",
+            "lessonDescription": "Học về deployment - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 23,
+    "courseTitle": "AWS Cloud",
+    "description": "Amazon Web Services fundamentals.",
+    "urlVideo": "https://www.youtube.com/embed/ulprqHHWlng",
+    "price": 1699000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "Cloud computing",
+      "IAM",
+      "EC2",
+      "S3",
+      "VPC",
+      "RDS"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "AWS Intro",
+        "chapterDescription": "Cloud basics",
+        "estimatedDurationMinutes": 30,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu aws intro",
+            "lessonDescription": "Học về aws intro - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về aws intro",
+            "lessonDescription": "Học về aws intro - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành aws intro",
+            "lessonDescription": "Học về aws intro - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về aws intro",
+            "lessonDescription": "Học về aws intro - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 7,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "EC2",
+        "chapterDescription": "Virtual servers",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu ec2",
+            "lessonDescription": "Học về ec2 - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về ec2",
+            "lessonDescription": "Học về ec2 - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành ec2",
+            "lessonDescription": "Học về ec2 - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về ec2",
+            "lessonDescription": "Học về ec2 - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho ec2",
+            "lessonDescription": "Học về ec2 - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "S3",
+        "chapterDescription": "Object storage",
+        "estimatedDurationMinutes": 45,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu s3",
+            "lessonDescription": "Học về s3 - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về s3",
+            "lessonDescription": "Học về s3 - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành s3",
+            "lessonDescription": "Học về s3 - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về s3",
+            "lessonDescription": "Học về s3 - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho s3",
+            "lessonDescription": "Học về s3 - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 9,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 24,
+    "courseTitle": "DevOps Monitoring",
+    "description": "Giám sát và bảo mật hệ thống.",
+    "urlVideo": "https://www.youtube.com/embed/Zu53QQuYqJ0",
+    "price": 1499000,
+    "prerequisiteIds": [
+      21,
+      23
+    ],
+    "learningObjectives": [
+      "Observability",
+      "Logging",
+      "Monitoring",
+      "Security",
+      "DevSecOps"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "Observability",
+        "chapterDescription": "3 pillars",
+        "estimatedDurationMinutes": 35,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu observability",
+            "lessonDescription": "Học về observability - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về observability",
+            "lessonDescription": "Học về observability - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành observability",
+            "lessonDescription": "Học về observability - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 11,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Prometheus",
+        "chapterDescription": "Metrics",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu prometheus",
+            "lessonDescription": "Học về prometheus - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về prometheus",
+            "lessonDescription": "Học về prometheus - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành prometheus",
+            "lessonDescription": "Học về prometheus - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về prometheus",
+            "lessonDescription": "Học về prometheus - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Best practices cho prometheus",
+            "lessonDescription": "Học về prometheus - phần 5",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 5,
+            "estimatedDurationMinutes": 12,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Security",
+        "chapterDescription": "DevSecOps",
+        "estimatedDurationMinutes": 55,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu security",
+            "lessonDescription": "Học về security - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về security",
+            "lessonDescription": "Học về security - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành security",
+            "lessonDescription": "Học về security - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về security",
+            "lessonDescription": "Học về security - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 25,
+    "courseTitle": "C++ cơ bản",
+    "description": "Lập trình C++ cho systems và game dev.",
+    "urlVideo": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+    "price": 699000,
+    "prerequisiteIds": [],
+    "learningObjectives": [
+      "C++ syntax",
+      "Pointers",
+      "Memory management",
+      "OOP",
+      "STL"
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "C++ Basics",
+        "chapterDescription": "Variables, Types",
+        "estimatedDurationMinutes": 40,
+        "displayOrder": 1,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu c++ basics",
+            "lessonDescription": "Học về c++ basics - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về c++ basics",
+            "lessonDescription": "Học về c++ basics - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": true
+          },
+          {
+            "lessonTitle": "Thực hành c++ basics",
+            "lessonDescription": "Học về c++ basics - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 13,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "Pointers",
+        "chapterDescription": "Memory management",
+        "estimatedDurationMinutes": 60,
+        "displayOrder": 2,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu pointers",
+            "lessonDescription": "Học về pointers - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về pointers",
+            "lessonDescription": "Học về pointers - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành pointers",
+            "lessonDescription": "Học về pointers - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Ví dụ thực tế về pointers",
+            "lessonDescription": "Học về pointers - phần 4",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 4,
+            "estimatedDurationMinutes": 15,
+            "isFreePreview": false
+          }
+        ]
+      },
+      {
+        "chapterTitle": "OOP",
+        "chapterDescription": "Classes, Inheritance",
+        "estimatedDurationMinutes": 70,
+        "displayOrder": 3,
+        "lessons": [
+          {
+            "lessonTitle": "Giới thiệu oop",
+            "lessonDescription": "Học về oop - phần 1",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 1,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Khái niệm cơ bản về oop",
+            "lessonDescription": "Học về oop - phần 2",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 2,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          },
+          {
+            "lessonTitle": "Thực hành oop",
+            "lessonDescription": "Học về oop - phần 3",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "displayOrder": 3,
+            "estimatedDurationMinutes": 23,
+            "isFreePreview": false
+          }
+        ]
+      }
+    ]
+  }
+]

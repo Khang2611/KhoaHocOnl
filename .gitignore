@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+KhoaHocOnl/target/
+frontend/build/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Maven
+KhoaHocOnl/.mvn/wrapper/maven-wrapper.jar
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Database
+*.db
+*.sqlite
