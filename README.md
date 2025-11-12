@@ -6,6 +6,39 @@ Hệ thống quản lý khóa học online với backend Spring Boot và fronten
 
 ## 🚀 Quick Start
 
+### ⚠️ Setup Environment (Lần Đầu)
+
+**Quan trọng**: Cần setup environment variables trước khi chạy!
+
+#### Option 1: Sử dụng Script (Khuyến nghị)
+
+**Linux/Mac:**
+
+```bash
+bash setup-env.sh
+```
+
+**Windows:**
+
+```bash
+setup-env.bat
+```
+
+#### Option 2: Manual Setup
+
+```bash
+# Copy template
+cp KhoaHocOnl/src/main/resources/application.properties.example \
+   KhoaHocOnl/src/main/resources/application.properties
+
+# Cập nhật thông tin trong application.properties
+# - Database password
+# - JWT secret (tạo bằng: openssl rand -base64 64)
+# - Admin password
+```
+
+Xem chi tiết: [ENVIRONMENT_SETUP.md](ENVIRONMENT_SETUP.md)
+
 ### Backend (Spring Boot)
 
 ```bash
