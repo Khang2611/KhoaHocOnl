@@ -21,6 +21,7 @@ import {
   CircularProgress,
   Alert,
   Snackbar,
+  TablePagination,
 } from "@mui/material";
 import { Add, Edit, Delete, Visibility } from "@mui/icons-material";
 import { adminAPI } from "../../services/adminApi";
@@ -50,6 +51,8 @@ const CourseManagement: React.FC = () => {
   const [error, setError] = useState<string>("");
   const [openDialog, setOpenDialog] = useState(false);
   const [editingCourse, setEditingCourse] = useState<Course | null>(null);
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(10);
   const [formData, setFormData] = useState<CourseFormData>({
     courseTitle: "",
     description: "",
@@ -222,6 +225,23 @@ const CourseManagement: React.FC = () => {
     }).format(price);
   };
 
+  const handleChangePage = (event: unknown, newPage: number) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
+
+  // Paginated courses
+  const paginatedCourses = courses.slice(
+    page * rowsPerPage,
+    page * rowsPerPage + rowsPerPage
+  );
+
   if (loading) {
     return (
       <Box sx={{ display: "flex", justifyContent: "center", mt: 4 }}>
@@ -304,7 +324,7 @@ const CourseManagement: React.FC = () => {
                   </TableCell>
                 </TableRow>
               ) : (
-                courses.map((course) => (
+                paginatedCourses.map((course) => (
                   <TableRow key={course.courseId} hover>
                     <TableCell>{course.courseId}</TableCell>
                     <TableCell>
@@ -374,6 +394,19 @@ const CourseManagement: React.FC = () => {
             </TableBody>
           </Table>
         </TableContainer>
+        <TablePagination
+          rowsPerPageOptions={[5, 10, 25, 50]}
+          component="div"
+          count={courses.length}
+          rowsPerPage={rowsPerPage}
+          page={page}
+          onPageChange={handleChangePage}
+          onRowsPerPageChange={handleChangeRowsPerPage}
+          labelRowsPerPage="Số khóa học mỗi trang:"
+          labelDisplayedRows={({ from, to, count }) =>
+            `${from}-${to} của ${count !== -1 ? count : `hơn ${to}`}`
+          }
+        />
       </Card>
 
       {/* Course Form Dialog */}

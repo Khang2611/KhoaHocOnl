@@ -22,10 +22,16 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+logs/
 
-# Environment
+# Environment & Sensitive Files
 .env
 .env.local
+.env.production
+.env.*.local
+**/application.properties
+**/application-*.properties
+!**/application.properties.example
 
 # Maven
 KhoaHocOnl/.mvn/wrapper/maven-wrapper.jar
@@ -39,3 +45,9 @@ KhoaHocOnl/.mvn/wrapper/maven-wrapper.jar
 # Database
 *.db
 *.sqlite
+
+# Security
+*.key
+*.pem
+*.crt
+secrets/

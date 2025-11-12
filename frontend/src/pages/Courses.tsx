@@ -9,6 +9,7 @@ import {
   InputAdornment,
   Chip,
   Stack,
+  Pagination,
 } from "@mui/material";
 import { Search, FilterList } from "@mui/icons-material";
 import { Course } from "../types";
@@ -26,6 +27,8 @@ const Courses: React.FC = () => {
   const [error, setError] = useState<string>("");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedFilter, setSelectedFilter] = useState("all");
+  const [page, setPage] = useState(1);
+  const coursesPerPage = 9;
 
   const filters = [
     { key: "all", label: "Tất cả" },
@@ -169,7 +172,22 @@ const Courses: React.FC = () => {
     }
 
     setFilteredCourses(filtered);
+    setPage(1); // Reset to first page when filters change
   }, [courses, searchTerm, selectedFilter]);
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredCourses.length / coursesPerPage);
+  const startIndex = (page - 1) * coursesPerPage;
+  const endIndex = startIndex + coursesPerPage;
+  const paginatedCourses = filteredCourses.slice(startIndex, endIndex);
+
+  const handlePageChange = (
+    event: React.ChangeEvent<unknown>,
+    value: number
+  ) => {
+    setPage(value);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   if (loading) {
     return (
@@ -239,6 +257,8 @@ const Courses: React.FC = () => {
         {/* Results count */}
         <Typography variant="body2" color="text.secondary">
           Tìm thấy {filteredCourses.length} khóa học
+          {filteredCourses.length > coursesPerPage &&
+            ` - Trang ${page} / ${totalPages}`}
         </Typography>
       </Box>
 
@@ -253,21 +273,38 @@ const Courses: React.FC = () => {
           </Typography>
         </Box>
       ) : (
-        <Grid container spacing={3}>
-          {filteredCourses.map((course) => {
-            const isEnrolled = userEnrollments.some(
-              (enrollment) =>
-                enrollment.course.courseId === course.courseId &&
-                enrollment.status === "APPROVED"
-            );
+        <>
+          <Grid container spacing={3}>
+            {paginatedCourses.map((course) => {
+              const isEnrolled = userEnrollments.some(
+                (enrollment) =>
+                  enrollment.course.courseId === course.courseId &&
+                  enrollment.status === "APPROVED"
+              );
 
-            return (
-              <Grid item xs={12} sm={6} md={4} key={course.courseId}>
-                <CourseCard course={course} showEnrollButton={!isEnrolled} />
-              </Grid>
-            );
-          })}
-        </Grid>
+              return (
+                <Grid item xs={12} sm={6} md={4} key={course.courseId}>
+                  <CourseCard course={course} showEnrollButton={!isEnrolled} />
+                </Grid>
+              );
+            })}
+          </Grid>
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <Box sx={{ display: "flex", justifyContent: "center", mt: 4 }}>
+              <Pagination
+                count={totalPages}
+                page={page}
+                onChange={handlePageChange}
+                color="primary"
+                size="large"
+                showFirstButton
+                showLastButton
+              />
+            </Box>
+          )}
+        </>
       )}
     </Box>
   );
