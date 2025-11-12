@@ -33,6 +33,9 @@ logs/
 **/application-*.properties
 !**/application.properties.example
 
+# Backend Resources (contains sensitive data and large files)
+KhoaHocOnl/src/main/resources/
+
 # Maven
 KhoaHocOnl/.mvn/wrapper/maven-wrapper.jar
 
