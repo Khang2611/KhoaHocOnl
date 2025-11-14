@@ -15,10 +15,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
 @Entity
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -40,27 +42,10 @@ public class CoursePrerequisite {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    PrerequisiteType type; // REQUIRED or RECOMMENDED
+    PrerequisiteType type;
 
     public enum PrerequisiteType {
         REQUIRED,
         RECOMMENDED
-    }
-
-    // Manual setters
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setCourse(Course course) {
-        this.course = course;
-    }
-
-    public void setPrerequisiteCourse(Course prerequisiteCourse) {
-        this.prerequisiteCourse = prerequisiteCourse;
-    }
-
-    public void setType(PrerequisiteType type) {
-        this.type = type;
     }
 }

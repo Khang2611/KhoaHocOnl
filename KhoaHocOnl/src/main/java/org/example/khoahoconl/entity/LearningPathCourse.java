@@ -1,11 +1,24 @@
 package org.example.khoahoconl.entity;
 
-import jakarta.persistence.*;
-import lombok.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
 @Entity
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -31,25 +44,4 @@ public class LearningPathCourse {
     @Column(name = "is_required")
     @Builder.Default
     Boolean isRequired = true;
-
-    // Manual setters
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setLearningPath(LearningPath learningPath) {
-        this.learningPath = learningPath;
-    }
-
-    public void setCourse(Course course) {
-        this.course = course;
-    }
-
-    public void setSequenceOrder(Integer sequenceOrder) {
-        this.sequenceOrder = sequenceOrder;
-    }
-
-    public void setIsRequired(Boolean isRequired) {
-        this.isRequired = isRequired;
-    }
 }

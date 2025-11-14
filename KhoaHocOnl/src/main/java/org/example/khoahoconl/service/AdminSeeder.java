@@ -1,6 +1,7 @@
 package org.example.khoahoconl.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.example.khoahoconl.entity.User;
 import org.example.khoahoconl.enums.Role;
 import org.example.khoahoconl.repository.UserRepository;
@@ -12,7 +13,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-@Order(1) // Run first
+@Slf4j
+@Order(1)
 public class AdminSeeder implements CommandLineRunner {
 
     private final UserRepository userRepository;
@@ -21,14 +23,14 @@ public class AdminSeeder implements CommandLineRunner {
     private String adminPassword;
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         if (!userRepository.existsByUserName("admin")) {
             User admin = new User();
             admin.setUserName("admin");
             admin.setPassword(passwordEncoder.encode(adminPassword));
             admin.setRole(Role.ADMIN);
             userRepository.save(admin);
-            System.out.println("Tài khoản admin đã được tạo thành công.");
+            log.info("Admin account created successfully");
         }
     }
 }

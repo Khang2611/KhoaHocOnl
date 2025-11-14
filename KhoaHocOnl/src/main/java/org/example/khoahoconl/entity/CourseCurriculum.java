@@ -13,10 +13,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
 @Entity
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -43,29 +45,4 @@ public class CourseCurriculum {
 
     @Column(name = "estimated_duration_minutes")
     Integer estimatedDurationMinutes;
-
-    // Manual setters
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setCourse(Course course) {
-        this.course = course;
-    }
-
-    public void setChapterTitle(String chapterTitle) {
-        this.chapterTitle = chapterTitle;
-    }
-
-    public void setChapterDescription(String chapterDescription) {
-        this.chapterDescription = chapterDescription;
-    }
-
-    public void setDisplayOrder(Integer displayOrder) {
-        this.displayOrder = displayOrder;
-    }
-
-    public void setEstimatedDurationMinutes(Integer estimatedDurationMinutes) {
-        this.estimatedDurationMinutes = estimatedDurationMinutes;
-    }
 }

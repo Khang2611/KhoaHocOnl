@@ -9,7 +9,7 @@ import org.example.khoahoconl.dto.response.ApiResponse;
 import org.example.khoahoconl.dto.response.CourseResponse;
 import org.example.khoahoconl.dto.response.UserResponse;
 import org.example.khoahoconl.entity.CourseEnrollment;
-import org.example.khoahoconl.service.AdminService;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,69 +22,88 @@ import java.util.List;
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class AdminController {
 
-    AdminService adminService;
+    org.example.khoahoconl.service.AdminManagementFacade adminFacade;
     org.example.khoahoconl.service.CourseImportService courseImportService;
 
     @GetMapping("/users")
     public ResponseEntity<List<UserResponse>> getUsers() {
-        List<UserResponse> users = adminService.getUsers();
-        return ResponseEntity.ok(users);
+        return ResponseEntity.ok(adminFacade.getAllUsers());
     }
 
     @DeleteMapping("/users/{id}")
     public ResponseEntity<ApiResponse<String>> deleteUser(@PathVariable Long id) {
-        adminService.deleteUser(id);
+        adminFacade.deleteUser(id);
 
         ApiResponse<String> apiResponse = new ApiResponse<>();
         apiResponse.setCode(200);
         apiResponse.setMessage("User with ID " + id + " has been deleted successfully.");
-
         return ResponseEntity.ok(apiResponse);
     }
 
     @PostMapping("/courses")
     public ResponseEntity<CourseResponse> createCourse(@RequestBody CourseCreationRequest request) {
-        CourseResponse course = adminService.createCourse(request);
+        CourseResponse course = adminFacade.createCourse(request);
         return new ResponseEntity<>(course, HttpStatus.CREATED);
     }
 
     @PutMapping("/courses/{id}")
     public ResponseEntity<CourseResponse> updateCourse(@PathVariable Long id, @RequestBody CourseUpdateRequest request) {
-        CourseResponse course = adminService.updateCourse(id, request);
-        return ResponseEntity.ok(course);
+        return ResponseEntity.ok(adminFacade.updateCourse(id, request));
     }
 
     @DeleteMapping("/courses/{id}")
     public ResponseEntity<ApiResponse<String>> deleteCourse(@PathVariable Long id) {
-        adminService.deleteCourse(id);
+        adminFacade.deleteCourse(id);
 
         ApiResponse<String> apiResponse = new ApiResponse<>();
         apiResponse.setCode(200);
         apiResponse.setMessage("Course with ID " + id + " has been deleted successfully.");
-
         return ResponseEntity.ok(apiResponse);
     }
 
     @PutMapping("/enrollments/{id}/approve")
-    public ResponseEntity<Void> approveEnrollment(@PathVariable Long id) {
-        adminService.approveEnrollment(id);
-        return ResponseEntity.ok().build();
+    public ResponseEntity<ApiResponse<String>> approveEnrollment(@PathVariable Long id) {
+        adminFacade.approveEnrollment(id);
+
+        ApiResponse<String> apiResponse = new ApiResponse<>();
+        apiResponse.setCode(200);
+        apiResponse.setMessage("Enrollment approved successfully");
+        return ResponseEntity.ok(apiResponse);
     }
 
     @PutMapping("/enrollments/{id}/reject")
-    public ResponseEntity<Void> rejectEnrollment(@PathVariable Long id) {
-        adminService.rejectEnrollment(id);
-        return ResponseEntity.ok().build();
+    public ResponseEntity<ApiResponse<String>> rejectEnrollment(@PathVariable Long id) {
+        adminFacade.rejectEnrollment(id);
+
+        ApiResponse<String> apiResponse = new ApiResponse<>();
+        apiResponse.setCode(200);
+        apiResponse.setMessage("Enrollment rejected successfully");
+        return ResponseEntity.ok(apiResponse);
+    }
+
+    @PostMapping("/enrollments/batch-approve")
+    public ResponseEntity<ApiResponse<String>> batchApproveEnrollments(@RequestBody List<Long> enrollmentIds) {
+        adminFacade.batchApproveEnrollments(enrollmentIds);
+
+        ApiResponse<String> apiResponse = new ApiResponse<>();
+        apiResponse.setCode(200);
+        apiResponse.setMessage("Batch approval completed for " + enrollmentIds.size() + " enrollments");
+        return ResponseEntity.ok(apiResponse);
+    }
+
+    @PostMapping("/enrollments/batch-reject")
+    public ResponseEntity<ApiResponse<String>> batchRejectEnrollments(@RequestBody List<Long> enrollmentIds) {
+        adminFacade.batchRejectEnrollments(enrollmentIds);
+
+        ApiResponse<String> apiResponse = new ApiResponse<>();
+        apiResponse.setCode(200);
+        apiResponse.setMessage("Batch rejection completed for " + enrollmentIds.size() + " enrollments");
+        return ResponseEntity.ok(apiResponse);
     }
 
     @GetMapping("/enrollments")
     public ResponseEntity<List<CourseEnrollment>> getAllEnrollments() {
-        try {
-            List<CourseEnrollment> enrollments = adminService.getAllEnrollments();
-            return ResponseEntity.ok(enrollments);
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
-        }
+        return ResponseEntity.ok(adminFacade.getAllEnrollments());
     }
 
     // Import courses from JSON

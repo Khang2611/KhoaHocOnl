@@ -13,10 +13,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
 @Entity
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -49,37 +51,4 @@ public class CurriculumLesson {
 
     @Column(name = "is_free_preview")
     Boolean isFreePreview;
-
-    // Manual setters
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setCurriculum(CourseCurriculum curriculum) {
-        this.curriculum = curriculum;
-    }
-
-    public void setLessonTitle(String lessonTitle) {
-        this.lessonTitle = lessonTitle;
-    }
-
-    public void setLessonDescription(String lessonDescription) {
-        this.lessonDescription = lessonDescription;
-    }
-
-    public void setVideoUrl(String videoUrl) {
-        this.videoUrl = videoUrl;
-    }
-
-    public void setDisplayOrder(Integer displayOrder) {
-        this.displayOrder = displayOrder;
-    }
-
-    public void setEstimatedDurationMinutes(Integer estimatedDurationMinutes) {
-        this.estimatedDurationMinutes = estimatedDurationMinutes;
-    }
-
-    public void setIsFreePreview(Boolean isFreePreview) {
-        this.isFreePreview = isFreePreview;
-    }
 }

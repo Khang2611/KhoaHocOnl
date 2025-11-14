@@ -23,39 +23,28 @@ import java.util.List;
 public class CourseController {
 
     final UserService userService;
-    final CourseService courseService;
+    final org.example.khoahoconl.service.CourseManagementFacade courseManagementFacade;
 
     @GetMapping("all")
     public ResponseEntity<List<CourseResponse>> getAllCourse() {
-        List<CourseResponse> courseResponses = courseService.getAllCourses();
-        return ResponseEntity.ok(courseResponses);
+        return ResponseEntity.ok(courseManagementFacade.getAllCourses());
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<CourseResponse> getCourse(@PathVariable Long id) {
-        CourseResponse courseResponse = courseService.getCourse(id);
-        return ResponseEntity.ok(courseResponse);
+        return ResponseEntity.ok(courseManagementFacade.getCourse(id));
     }
 
     @GetMapping("/{id}/details")
     public ResponseEntity<org.example.khoahoconl.dto.response.EnhancedCourseResponse> getCourseDetails(@PathVariable Long id) {
-        org.example.khoahoconl.dto.response.EnhancedCourseResponse response = courseService.getEnhancedCourseDetails(id);
-        return ResponseEntity.ok(response);
-    }
-
-    @PutMapping("/update/{id}")
-    public ResponseEntity<ApiResponse<CourseResponse>> updateCourse(@PathVariable Long id, @RequestBody CourseUpdateRequest request) {
-        ApiResponse<CourseResponse> apiResponse = new ApiResponse<>();
-        apiResponse.setResult(courseService.updateCourse(id, request));
-        apiResponse.setCode(200);
-        apiResponse.setMessage("Course updated successfully.");
-        return ResponseEntity.ok(apiResponse);
+        return ResponseEntity.ok(courseManagementFacade.getEnhancedCourseDetails(id));
     }
 
     @PostMapping("/enroll/{courseId}")
     public ResponseEntity<ApiResponse<String>> enrollCourse(@PathVariable Long courseId) {
         Long userId = getCurrentUserId();
-        Long enrollmentId = courseService.enrollCourse(userId, courseId);
+        Long enrollmentId = courseManagementFacade.enrollUserInCourse(userId, courseId);
+
         ApiResponse<String> apiResponse = new ApiResponse<>();
         apiResponse.setCode(200);
         apiResponse.setMessage("Enrolled successfully. Please proceed to payment.");
@@ -63,10 +52,23 @@ public class CourseController {
         return ResponseEntity.ok(apiResponse);
     }
 
+    @PostMapping("/enroll-and-pay/{courseId}")
+    public ResponseEntity<ApiResponse<org.example.khoahoconl.service.CourseManagementFacade.EnrollmentWithPaymentResult>> enrollAndPay(@PathVariable Long courseId) {
+        Long userId = getCurrentUserId();
+        var result = courseManagementFacade.enrollAndInitiatePayment(userId, courseId);
+
+        ApiResponse<org.example.khoahoconl.service.CourseManagementFacade.EnrollmentWithPaymentResult> apiResponse = new ApiResponse<>();
+        apiResponse.setCode(200);
+        apiResponse.setMessage(result.getMessage());
+        apiResponse.setResult(result);
+        return ResponseEntity.ok(apiResponse);
+    }
+
     @PostMapping("/payment/{courseId}")
     public ResponseEntity<ApiResponse<PaymentResponse>> processPayment(@PathVariable Long courseId) {
         Long userId = getCurrentUserId();
-        PaymentResponse paymentResponse = courseService.processPayment(courseId, userId);
+        PaymentResponse paymentResponse = courseManagementFacade.initiatePayment(userId, courseId);
+
         ApiResponse<PaymentResponse> apiResponse = new ApiResponse<>();
         apiResponse.setCode(200);
         apiResponse.setMessage("Payment QR code generated successfully.");
@@ -76,7 +78,8 @@ public class CourseController {
 
     @PostMapping("/simulate-payment/{enrollmentId}")
     public ResponseEntity<ApiResponse<String>> simulatePayment(@PathVariable Long enrollmentId) {
-        String result = courseService.simulatePaymentSuccess(enrollmentId);
+        String result = courseManagementFacade.simulatePaymentSuccess(enrollmentId);
+
         ApiResponse<String> apiResponse = new ApiResponse<>();
         apiResponse.setCode(200);
         apiResponse.setMessage("Payment simulation completed.");
@@ -87,7 +90,7 @@ public class CourseController {
     @GetMapping("/enrollment-status/{courseId}")
     public ResponseEntity<ApiResponse<String>> getEnrollmentStatus(@PathVariable Long courseId) {
         Long userId = getCurrentUserId();
-        String status = courseService.getEnrollmentStatus(userId, courseId);
+        String status = courseManagementFacade.getEnrollmentStatus(userId, courseId);
 
         ApiResponse<String> apiResponse = new ApiResponse<>();
         apiResponse.setCode(200);

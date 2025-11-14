@@ -1,6 +1,7 @@
 package org.example.khoahoconl.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.example.khoahoconl.dto.request.CourseImportRequest;
 import org.example.khoahoconl.entity.*;
 import org.example.khoahoconl.repository.*;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class CourseImportService {
 
     private final CourseRepository courseRepository;
@@ -108,15 +110,15 @@ public class CourseImportService {
             if (request.getPrerequisiteIds() != null && !request.getPrerequisiteIds().isEmpty()) {
                 Course course = courseRepository.findById(request.getCourseId()).orElse(null);
                 if (course == null) {
-                    System.out.println("Warning: Course not found for prerequisites: " + request.getCourseId());
+                    log.warn("Course not found for prerequisites: {}", request.getCourseId());
                     continue;
                 }
 
                 for (Long prereqId : request.getPrerequisiteIds()) {
                     Course prereqCourse = courseRepository.findById(prereqId).orElse(null);
                     if (prereqCourse == null) {
-                        System.out.println("Warning: Prerequisite course not found: " + prereqId + " for course: " + request.getCourseId());
-                        continue; // Skip this prerequisite instead of throwing error
+                        log.warn("Prerequisite course not found: {} for course: {}", prereqId, request.getCourseId());
+                        continue;
                     }
 
                     // Check if prerequisite already exists

@@ -13,10 +13,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
 @Entity
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -37,21 +39,4 @@ public class CourseLearningObjective {
 
     @Column(name = "display_order")
     Integer displayOrder;
-
-    // Manual setters
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setCourse(Course course) {
-        this.course = course;
-    }
-
-    public void setObjective(String objective) {
-        this.objective = objective;
-    }
-
-    public void setDisplayOrder(Integer displayOrder) {
-        this.displayOrder = displayOrder;
-    }
 }

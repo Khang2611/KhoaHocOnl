@@ -39,8 +39,7 @@ public class UserService {
     final UserRepository userRepository;
     final PasswordEncoder passwordEncoder;
     final UserMapper userMapper;
-    final CourseMapper courseMapper ;
-    final CourseEnrollmentRepository courseEnrollmentRepository;
+    final org.example.khoahoconl.service.CourseManagementFacade courseManagementFacade;
 
     public UserResponse registerUser(RegisterRequest request) {
         if (userRepository.existsByUserName(request.getUserName())) {
@@ -106,32 +105,12 @@ public class UserService {
         return userMapper.toUserResponse(updatedUser);
     }
 
+    // Delegate to CourseManagementFacade
     public java.util.List<org.example.khoahoconl.dto.response.CourseResponse> getEnrolledCourses(Long userId) {
-        // Get all APPROVED enrollments for this user
-        java.util.List<org.example.khoahoconl.entity.CourseEnrollment> approvedEnrollments
-                = courseEnrollmentRepository.findByUser_UserIdAndStatus(userId, org.example.khoahoconl.enums.Status.APPROVED);
-
-        // Convert to CourseResponse list
-        return approvedEnrollments.stream()
-                .map(enrollment -> courseMapper.toDTO(enrollment.getCourse()))
-                .collect(java.util.stream.Collectors.toList());
+        return courseManagementFacade.getUserEnrolledCourses(userId);
     }
 
     public java.util.List<java.util.Map<String, Object>> getAllEnrollments(Long userId) {
-        // Get all enrollments for this user (APPROVED, PENDING, REJECTED)
-        java.util.List<org.example.khoahoconl.entity.CourseEnrollment> allEnrollments
-                = courseEnrollmentRepository.findByUser_UserId(userId);
-
-        // Convert to detailed enrollment info
-        return allEnrollments.stream()
-                .map(enrollment -> {
-                    java.util.Map<String, Object> enrollmentInfo = new java.util.HashMap<>();
-                    enrollmentInfo.put("enrollmentId", enrollment.getCourseEnrollmentId());
-                    enrollmentInfo.put("status", enrollment.getStatus().name());
-                    enrollmentInfo.put("requestDate", enrollment.getRequestDate());
-                    enrollmentInfo.put("course", courseMapper.toDTO(enrollment.getCourse()));
-                    return enrollmentInfo;
-                })
-                .collect(java.util.stream.Collectors.toList());
+        return courseManagementFacade.getUserAllEnrollments(userId);
     }
 }
